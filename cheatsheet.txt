@@ -1,0 +1,9 @@
+ git config --global user.name "Deba Durllava"
+ git config --global user.email "debadurllava97@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+git remote add origin git@github.com:debadurllava/ToDoList.git
+ ssh-keygen -t rsa -b 4096 -C "debadurllava97@gmail.com"
+git push origin master
